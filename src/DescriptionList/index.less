@@ -1,0 +1,65 @@
+:global {
+  .descriptionList {
+    font-size: 14px;
+
+    .ant-row {
+      overflow: hidden;
+    }
+
+    .description-label {
+      float: left;
+      width: 80px;
+      line-height: 22px;
+      padding-bottom: 16px;
+      margin-right: 8px;
+      white-space: nowrap;
+      display: table-cell;
+      color: #4d4d4d;
+      text-align: right;
+      cursor: pointer;
+
+      &:after {
+        content: ":";
+        margin: 0 8px 0 2px;
+        position: relative;
+        top: -.5px;
+      }
+    }
+
+    .description-detail {
+      line-height: 22px;
+      width: 100%;
+      padding-bottom: 16px;
+      display: table-cell;
+    }
+
+    &.vertical {
+      .description-label {
+        float: none;
+        width: auto !important;
+        text-align: left;
+        padding-bottom: 8px;
+        display: block;
+      }
+
+      .description-detail {
+        display: block;
+      }
+    }
+
+    &.small {
+      font-size: 12px;
+
+      .description-label {
+        padding-bottom: 8px;
+      }
+
+      .description-detail {
+        padding-bottom: 8px;
+      }
+    }
+    &.large {
+      font-size: 16px;
+    }
+  }
+}

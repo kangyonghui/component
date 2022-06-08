@@ -1,0 +1,92 @@
+.upload-input-container {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  width: 119px;
+  height: 119px;
+  padding: 24px 0;
+  background-color: #fbfbfb;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-color .3s ease;
+  transition: border-color .3s ease;
+  display: inline-block;
+  vertical-align: top;
+  margin: 2px 0 0 0;
+}
+
+.upload-input-container:hover {
+  border-color: #2db7f5;
+}
+
+.upload-input-container-a i {
+  font-size: 28px;
+  color: #999;
+}
+
+.upload-input-container .anticon-plus {
+  font-size: 32px;
+  color: #666;
+}
+
+.upload-input-container .ant-upload-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.upload-input-container:focus {
+  border: none;
+  outline-color: #fff !important;
+}
+
+.upload-input-container > span {
+  display: block;
+  width: 100%;
+  outline: none;
+}
+
+.input-klass:focus {
+  border: none;
+  outline-color: #fff !important;
+}
+
+.upload-input-avatar {
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+
+.upload-input-avatar .input-klass {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  transition: all .3s ease;
+  cursor: pointer;
+  opacity: 0;
+  display: block;
+}
+
+.upload-input-avatar .input-klass .upload-input-container {
+  background-color: #000;
+  padding: 0;
+}
+
+.upload-input-avatar .upload-input-container .anticon,
+.upload-input-avatar .upload-input-container .ant-upload-text {
+  color: #fff;
+}
+
+.upload-input-avatar .upload-input-container .ant-upload-text {
+  margin-top: 0;
+}
+
+.upload-input-avatar:hover .input-klass {
+  opacity: .8;
+}
+
+.upload-input-avatar .upload-input-img {
+  border: 1px solid #eee;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;;
+}

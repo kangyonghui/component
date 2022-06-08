@@ -1,0 +1,18 @@
+.ux-btn-submit-group {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ux-btn-submit-group > .ant-btn:first-child:not(:last-child) {
+  margin-right: 8px;
+}
+
+.ux-btn-submit-group > .ant-btn:first-child {
+  margin-left: 0;
+}
+
+.ux-btn-submit-group > .ant-btn {
+  position: relative;
+  float: left;
+}

@@ -1,0 +1,36 @@
+.form-filter {
+  margin-bottom: 20px;
+}
+
+.form-filter > form {
+  padding: 25px 24px 13px 24px;
+  background: #fdfdfd;
+  border: 1px solid #efefef;
+}
+
+.form-filter hr {
+  margin-bottom: 12px;
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+}
+
+.form-filter-condition .ant-form-item,
+.form-filter-search-box .ant-form-item,
+.form-filter-advanced-condition .ant-form-item {
+  margin-bottom: 12px;
+}
+
+/*.form-filter-condition .ant-form-item .ant-form-item-label label,*/
+/*.form-filter-search-box .ant-form-item .ant-form-item-label label,*/
+/*.form-filter-advanced-condition .ant-form-item .ant-form-item-label label {*/
+/*font-size: 13px;*/
+/*line-height: 22px;*/
+/*}*/
+
+.form-filter-condition .ant-form-item .ant-calendar-picker,
+.form-filter-search-box .ant-form-item .ant-calendar-picker,
+.form-filter-advanced-condition .ant-form-item .ant-calendar-picker {
+  width: 100%;
+}
+

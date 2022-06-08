@@ -1,0 +1,40 @@
+.ant-radio-button-horizontal>button {
+  margin: 0 10px;
+}
+
+.ant-radio-button-horizontal>button:first-child:not(:last-child) {
+  margin-right: 10px;
+}
+
+.ant-radio-button-horizontal>button:first-child {
+  margin-left: 0;
+}
+
+.ant-radio-button-horizontal>button:last-child:not(:first-child) {
+  margin-left: 10px;
+}
+
+.ant-radio-button-horizontal>button:last-child {
+  margin-right: 0;
+}
+
+.ant-radio-button-vertical>button {
+  display: block;
+  margin: 10px 0;
+}
+
+.ant-radio-button-vertical>button:first-child:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.ant-radio-button-vertical>button:first-child {
+  margin-top: 0;
+}
+
+.ant-radio-button-vertical>button:last-child:not(:first-child) {
+  margin-top: 10px;
+}
+
+.ant-radio-button-vertical>button:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,23 @@
+.submit-group-space {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.submit-group-space > .ant-btn:first-child:not(:last-child) {
+  margin-right: 24px;
+}
+
+.submit-group-space > .ant-btn:first-child {
+  margin-left: 0;
+}
+
+.submit-group-space > .ant-btn {
+  position: relative;
+  float: left;
+}
+.submit-group-space > .ant-btn-lg {
+  padding: 0 26px;
+  font-size: 15px;
+  height: 34px;
+}
